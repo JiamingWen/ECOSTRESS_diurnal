@@ -9,11 +9,11 @@ The overall workflow is described in main.R. It consists of four steps:
 
 **Step 1**: Generate shapefile for the region of interest, provide information about e.g., time window, time zone, etc.
 
-**Step 2**: Data download and preprocessing.
+**Step 2**: Download and Preprocess the data.
 
-**Step 3**: contruct diurnal LST using DTC model
+**Step 3**: Construct diurnal LST using DTC model.
 
-**Step 4**: contruct diurnal ET using PT-JPL ET model
+**Step 4**: Construct diurnal ET using PT-JPL ET model.
 
 Several scripts that are used for analysis, but not used for data generation, are also provided in Code/Others folder.
 
