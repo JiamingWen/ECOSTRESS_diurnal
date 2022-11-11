@@ -1,0 +1,2 @@
+Download Landsat NDVI and albedo from Google Earth Engine:
+https://code.earthengine.google.com/b772f628d6a6c1073780269b956e4005

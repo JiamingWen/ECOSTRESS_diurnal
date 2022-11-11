@@ -1,0 +1,22 @@
+#create directory
+if (!dir.exists(paste0('Data/',RegionName))){
+  dir.create(paste0('Data/',RegionName))
+  dir.create(paste0('Data/',RegionName,"/CDL/"))
+  dir.create(paste0('Data/',RegionName,"/Ecostress_LST/"))
+  dir.create(paste0('Data/',RegionName,"/Ecostress_ET/"))
+  dir.create(paste0('Data/',RegionName,"/Shapefile/"))
+  dir.create(paste0('Data/',RegionName,"/GOES_LST/"))
+  dir.create(paste0('Data/',RegionName,"/GOES_LST/csvfile/"))
+  dir.create(paste0('Data/',RegionName,"/GOES_LST/ncfile/"))
+  dir.create(paste0('Data/',RegionName,"/GOES_LST/DTC_Parameters/"))
+  dir.create(paste0('Data/',RegionName,"/Landsat/"))
+  dir.create(paste0('Data/',RegionName,"/Tower/"))
+  dir.create(paste0('Data/',RegionName,"/Model"))
+  dir.create(paste0('Data/',RegionName,"/Model/OtherData"))
+  dir.create(paste0('Data/',RegionName,"/Model/overpass"))
+  dir.create(paste0('Data/',RegionName,"/Model/overpass/LST"))
+  dir.create(paste0('Data/',RegionName,"/Model/overpass/ET"))
+  dir.create(paste0('Data/',RegionName,"/Model/diurnal"))
+  dir.create(paste0('Data/',RegionName,"/Model/diurnal/LST"))
+  dir.create(paste0('Data/',RegionName,"/Model/diurnal/ET"))
+}
